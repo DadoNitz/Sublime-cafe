@@ -73,16 +73,27 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center section-bg">
     <div class="container">
-      <div class="row justify-content-between gy-5">
-        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
-          <h2 data-aos="fade-up">Promoção<br>Do dia</h2>
-          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="#book-a-table" class="btn-book-a-table">Faça sua reserva</a>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex align-items-center justify-content-center">
+            <img src="assets/img/hero-img.png" class="img-fluid" alt="Hero Image" data-aos="zoom-out" data-aos-delay="300">
+            <div class="carousel-caption1 d-none d-md-block ">
+              <h2 data-aos="fade-up">Promoção do dia</h2>
+              <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+                <a href="#book-a-table" class="btn-book-a-table  d-flex align-items-center justify-content-center ">Faça sua reserva</a>
+              </div>
+            </div>
           </div>
+          <!-- Adicione mais imagens aqui conforme necessário -->
         </div>
-        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
-          <img src="assets/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
       </div>
     </div>
   </section><!-- End Hero Section -->
